@@ -23,10 +23,10 @@ class MONSTERCAVE_API ATopDownCharacter : public APawn
 	GENERATED_BODY()
 
 	/* Variables used to measure character's attack cooldown */
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY()
 	FTimerHandle AttackTimer;
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY()
 	int32 AttackTimerCount{ 0 };
 
 	/* Pointer to player's controller */

@@ -119,7 +119,7 @@ void ATopDownCharacter::BaseAttack(const FInputActionValue& Value)
 	if (PlayerController)
 		DisableInput(PlayerController);
 
-	/* Setup timer for characte's attack cooldown */
+	/* Setup timer for character's attack cooldown */
 	AttackTimerCount = 0;
 
 	GetWorld()->GetTimerManager().SetTimer

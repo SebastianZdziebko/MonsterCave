@@ -3,7 +3,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 
-#include "MonsterCave/Enums/Estat.h"
+#include "MonsterCave/Enums/EStat.h"
 
 #include "StatsComponent.generated.h"
 
